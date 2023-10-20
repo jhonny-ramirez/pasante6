@@ -1,0 +1,32 @@
+{
+  "name": "mi-proyecto",
+  "version": "0.0.1",
+  "description": "hello word and test",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhonny-ramirez/pasante6.git"
+  },
+  "keywords": [
+    "test",
+    "hello",
+    "word"
+  ],
+  "author": "Jorge Luis Arone Delgado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhonny-ramirez/pasante6/issues"
+  },
+  "homepage": "https://github.com/jhonny-ramirez/pasante6#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "chai-http": "^4.4.0",
+    "mocha": "^10.2.0"
+  }
+}
